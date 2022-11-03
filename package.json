@@ -1,0 +1,19 @@
+{
+  "name": "ruscemp.github.io",
+  "version": "1.0.0",
+  "description": "GutHub Page",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruscemp/ruscemp.github.io.git"
+  },
+  "author": "ruscemp (Jaanek Kerma)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruscemp/ruscemp.github.io/issues"
+  },
+  "homepage": "https://github.com/Ruscemp/ruscemp.github.io#readme"
+}

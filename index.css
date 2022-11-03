@@ -18,3 +18,12 @@
     min-height: 10px;
     margin-bottom: 10px;
 }
+.lang {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: -25px;
+    text-align: right;
+}
+.lang a {
+    margin: 2px;
+}

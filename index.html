@@ -2,27 +2,37 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+            crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/jquery.localize.js"></script>-->
     <title>Ruscemp: Index</title>
 </head>
 <body>
     <div class="center">
-        <h1>Index</h1>
+        <div class="lang">
+            <select data-i18n-switcher class="locale-switcher">
+                <option value="en">English</option>
+                <option value="sv">Svenska</option>
+                <option value="ru">Русский</option>
+            </select>
+        </div>
+        <h1 data-i18n-key="index"></h1>
         <p>
-            Hello World!<br />
-            This is the personal github index of Jaanek Kerma.<br />
-            My online handler allmost always is Ruscemp.<br />
-            There currently is no projects on this page for it is currently in construction.<br />
-            My mail to discuss anything is <a href="mailto:jaanek.kerma@gmail.com">jaanek.kerma@gmail.com</a>
+            <span data-i18n-key="hello_content"></span> <a href="mailto:jaanek.kerma@gmail.com">jaanek.kerma@gmail.com</a>
         </p>
 
-        <h3>Games</h3>
+        <h3 data-i18n-key="game_top"></h3>
         <div class="item">
 
         </div>
 
-        <h3>Other Projects</h3>
+        <h3 data-i18n-key="other_projects_top"></h3>
         <div class="item">
 
         </div>
